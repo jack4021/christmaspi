@@ -1,4 +1,4 @@
-from pattern import Pattern
+from christmaspi.pattern import Pattern
 
 
 class DurationalPattern:

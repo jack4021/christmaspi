@@ -2,7 +2,7 @@ from typing import List
 
 from gpiozero import DigitalOutputDevice
 
-from pattern import Pattern, StatefulPin
+from christmaspi.pattern import Pattern, StatefulPin
 
 
 def all_on(list_of_pins: List[DigitalOutputDevice]) -> Pattern:

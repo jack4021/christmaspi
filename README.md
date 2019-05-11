@@ -1,2 +1,2 @@
-# christmaspy
-Christmas light routine in Python
+# christmaspi
+Christmas light library in Python

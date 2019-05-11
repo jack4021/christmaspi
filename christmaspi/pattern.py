@@ -1,4 +1,4 @@
-from stateful_pin import StatefulPin
+from christmaspi.stateful_pin import StatefulPin
 
 
 class Pattern:

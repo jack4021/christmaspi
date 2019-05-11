@@ -1,4 +1,4 @@
-from routine import Routine
+from christmaspi.routine import Routine
 
 
 class Program:

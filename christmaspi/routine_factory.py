@@ -2,10 +2,10 @@ from typing import List
 
 from gpiozero import DigitalOutputDevice
 
-from pattern_factory import every_nth
-from routine import DurationalPattern, Routine
-from pattern import Pattern
-from stateful_pin import StatefulPin
+from christmaspi.pattern_factory import every_nth
+from christmaspi.routine import DurationalPattern, Routine
+from christmaspi.pattern import Pattern
+from christmaspi.stateful_pin import StatefulPin
 
 
 def chase(list_of_pins: List[DigitalOutputDevice], n: int, time_between: float) -> Routine:
@@ -16,7 +16,7 @@ def chase(list_of_pins: List[DigitalOutputDevice], n: int, time_between: float) 
     return routine
 
 
-def wip_on_left(list_of_pins: List[DigitalOutputDevice], time_between: float) -> Routine:
+def wip_on(list_of_pins: List[DigitalOutputDevice], time_between: float) -> Routine:
     routine = Routine()
     temp_list = []
     for pin in list_of_pins:

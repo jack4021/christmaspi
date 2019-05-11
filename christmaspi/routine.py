@@ -1,6 +1,6 @@
 from time import sleep
 
-from durational_pattern import DurationalPattern
+from christmaspi.durational_pattern import DurationalPattern
 
 
 class Routine:
